@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+   <body>
+
+   <center>
+      <h1> Database records </h1>
+      <br> <br>
+      <table border = 1>
+         
+         {% for row in rows %}
+         <tr>
+        {{row}}
+		<br>
+         </tr>
+         {% endfor %}
+      </table>
+
+      <br>
+      <h2> <a href = "/">Homepage</a> </h2>
+   </body>
+</html>
